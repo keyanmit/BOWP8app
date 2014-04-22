@@ -1,0 +1,164 @@
+﻿<ViewModel:DailyDealsViewModel xmlns:ViewModel="clr-namespace:ViewModels.ViewModel;assembly=ViewModels" xmlns:Model="clr-namespace:ViewModels.Model;assembly=ViewModels">
+	<ViewModel:DailyDealsViewModel.DealsList>
+		<Model:DealModel Attribution="Vestibulum class curae cras donec" CurrencyCode="Natoque vestibulum placerat tristique pulvinar" CurrencySymbol="Sagittis nulla" DealTitle="Senectus ultricies keyan" DealInfo="Potenti odio vestibulum" DealId="Posuere magnis" EndTime="Dis sociosqu rhoncus mattis" ImageUrl="https://az389013.vo.msecnd.net/7bb0b0ff-4621-8db3-f4fd-7b9dfea52e39?v=7619446857&amp;size=13&amp;crop=true" Restriction="Mauris orci adipiscing" TransactionUrl="Quam suscipit">
+			<Model:DealModel.Business>
+				<Model:BusinessModel BusinessName="Maecenas nunc integer" BusinessId="Aliquam duis curabitur" ProviderBusinessId="Porttitor netus tincidunt litora luctus">
+					<Model:BusinessModel.Locations>
+						<Model:LocationModel Address1="Phasellus amet" Address2="Quisque nam praesent" City="Accumsan etiam consequat convallis" Country="Fusce ante" Longitude="983.65" Latitude="489.03" PhoneNumber="Aenean bibendum adipiscing parturient vivamus" State="Dictumst sed lorem morbi" Zipcode="Arcu aliquam"/>
+						<Model:LocationModel Address1="Dis nulla mauris proin" Address2="Dignissim vestibulum vestibulum est hac" City="Augue nullam" Country="Eleifend dolor fames facilisi" Longitude="977.83" Latitude="675.77" PhoneNumber="Diam felis" State="Eget aptent faucibus leo" Zipcode="Adipiscing elementum parturient aliquet"/>
+						<Model:LocationModel Address1="Elit auctor mus" Address2="Congue facilisis cursus fermentum dictum" City="Enim nec ipsum habitant lectus" Country="Vestibulum justo vestibulum" Longitude="760.18" Latitude="893.43" PhoneNumber="Fringilla lacus" State="Habitasse adipiscing non" Zipcode="Blandit inceptos parturient commodo"/>
+						<Model:LocationModel Address1="Interdum per hendrerit conubia cubilia" Address2="Erat libero dapibus lobortis egestas" City="Ligula vestibulum euismod eros" Country="Vestibulum feugiat lorem nibh" Longitude="389.29" Latitude="812.46" PhoneNumber="Nisi magna" State="Gravida adipiscing massa" Zipcode="Sed himenaeos nisl"/>
+						<Model:LocationModel Address1="Iaculis parturient" Address2="Vestibulum lacinia nascetur imperdiet" City="Sem vestibulum" Country="Nunc metus sit" Longitude="785.59" Latitude="601.9" PhoneNumber="Adipiscing laoreet parturient" State="Malesuada vel pharetra" Zipcode="Morbi penatibus nam neque sed"/>
+					</Model:BusinessModel.Locations>
+				</Model:BusinessModel>
+			</Model:DealModel.Business>
+			<Model:DealModel.SeoUrl>
+				<Model:SeoUrlModel FullUrl="Pede venenatis parturient aliquam"/>
+			</Model:DealModel.SeoUrl>
+		</Model:DealModel>
+		<Model:DealModel Attribution="Torquent purus risus" CurrencyCode="Lectus habitant" CurrencySymbol="Nisl nunc vestibulum" DealTitle="Sodales hendrerit viverra massa" DealInfo="Odio adipiscing parturient vestibulum" DealId="Libero ligula pretium rhoncus" EndTime="Aliquam himenaeos orci" ImageUrl="Metus inceptos litora interdum hac" Restriction="Lobortis imperdiet pede nascetur" TransactionUrl="Morbi leo neque quis vestibulum">
+			<Model:DealModel.Business>
+				<Model:BusinessModel BusinessName="Montes nostra velit" BusinessId="Mollis est" ProviderBusinessId="Nisi potenti cursus dictum">
+					<Model:BusinessModel.Locations>
+						<Model:LocationModel Address1="Quis vitae class curae" Address2="Integer quisque" City="Ornare urna cras vulputate hac" Country="Duis curabitur platea phasellus leo" Longitude="100.22" Latitude="878.71" PhoneNumber="Mus primis vivamus vestibulum aliquam" State="Vestibulum rutrum nec donec" Zipcode="Adipiscing sapien"/>
+						<Model:LocationModel Address1="Ultrices etiam fusce" Address2="Semper aliquet" City="Nunc lorem amet" Country="Morbi parturient ante vestibulum blandit" Longitude="138.48" Latitude="533.9" PhoneNumber="Commodo non conubia" State="Arcu sociis vestibulum adipiscing diam" Zipcode="Taciti eget tellus"/>
+						<Model:LocationModel Address1="Vehicula parturient" Address2="Cubilia consequat" City="Nulla convallis proin" Country="Per dapibus sed volutpat" Longitude="127.24" Latitude="430.71" PhoneNumber="Dignissim elementum augue" State="Tempor vestibulum tempus elit tortor" Zipcode="Sem vestibulum turpis"/>
+						<Model:LocationModel Address1="Adipiscing varius aenean dolor fames" Address2="Egestas mauris sit enim erat" City="Vel parturient maecenas" Country="Praesent accumsan euismod vestibulum feugiat" Longitude="671.49" Latitude="360.82" PhoneNumber="Bibendum eros felis nullam facilisis" State="Ipsum dictumst" Zipcode="Fermentum nam vestibulum aptent"/>
+						<Model:LocationModel Address1="Adipiscing parturient sed gravida" Address2="Justo dis nibh lacus vestibulum" City="Iaculis fringilla lacinia laoreet" Country="Vestibulum natoque eleifend adipiscing" Longitude="491.98" Latitude="827.13" PhoneNumber="Facilisi habitasse" State="Lorem parturient magna vestibulum auctor" Zipcode="Faucibus est congue posuere"/>
+					</Model:BusinessModel.Locations>
+				</Model:BusinessModel>
+			</Model:DealModel.Business>
+			<Model:DealModel.SeoUrl>
+				<Model:SeoUrlModel FullUrl="Integer quam"/>
+			</Model:DealModel.SeoUrl>
+		</Model:DealModel>
+		<Model:DealModel Attribution="Pharetra netus placerat quisque" CurrencyCode="Fermentum fringilla habitasse hendrerit quis" CurrencySymbol="Adipiscing parturient urna himenaeos" DealTitle="Vestibulum lacinia rutrum duis" DealInfo="Vestibulum cras iaculis vel" DealId="Imperdiet gravida lacus nascetur sit" EndTime="Nunc laoreet pharetra" ImageUrl="Amet sapien malesuada placerat" Restriction="Lorem ante arcu" TransactionUrl="Sociis taciti">
+			<Model:DealModel.Business>
+				<Model:BusinessModel BusinessName="Malesuada nulla" BusinessId="Urna cras pulvinar" ProviderBusinessId="Quam sem lobortis facilisis">
+					<Model:BusinessModel.Locations>
+						<Model:LocationModel Address1="Mus luctus" Address2="Duis porta penatibus" City="Purus vivamus porttitor risus" Country="Nunc sagittis velit aliquam amet" Longitude="922.42" Latitude="257.79" PhoneNumber="Vitae senectus class" State="Adipiscing parturient" Zipcode="Nec sociosqu vestibulum suscipit curae"/>
+						<Model:LocationModel Address1="Tincidunt vestibulum" Address2="Non adipiscing donec per" City="Sed sem aliquet etiam sit" Country="Ante blandit tristique parturient fusce" Longitude="452.05" Latitude="291.26" PhoneNumber="Commodo conubia torquent vel" State="Cubilia ultrices nam sed" Zipcode="Magnis ultricies venenatis lorem vehicula"/>
+						<Model:LocationModel Address1="Volutpat maecenas" Address2="Dis vulputate vestibulum mattis curabitur" City="Morbi praesent" Country="Mauris nulla arcu" Longitude="341.03" Latitude="873.03" PhoneNumber="Dapibus accumsan" State="Diam eget est hac egestas" Zipcode="Leo bibendum euismod mus"/>
+						<Model:LocationModel Address1="Elit dictumst eleifend enim phasellus" Address2="Vestibulum mollis montes erat consequat" City="Proin convallis" Country="Facilisi adipiscing nostra faucibus" Longitude="210.67" Latitude="758.19" PhoneNumber="Augue nec parturient" State="Dignissim eros ornare vestibulum vestibulum" Zipcode="Non adipiscing"/>
+						<Model:LocationModel Address1="Parturient dolor habitant" Address2="Fames nibh" City="Per nisi inceptos vestibulum nisl" Country="Nunc felis sed" Longitude="530.93" Latitude="756.99" PhoneNumber="Platea ipsum vestibulum odio justo" State="Orci elementum feugiat" Zipcode="Pede interdum primis"/>
+					</Model:BusinessModel.Locations>
+				</Model:BusinessModel>
+			</Model:DealModel.Business>
+			<Model:DealModel.SeoUrl>
+				<Model:SeoUrlModel FullUrl="Magna semper penatibus diam"/>
+			</Model:DealModel.SeoUrl>
+		</Model:DealModel>
+		<Model:DealModel Attribution="Nam sed tellus dis eget" CurrencyCode="Cubilia adipiscing" CurrencySymbol="Dapibus praesent egestas euismod nibh" DealTitle="Vestibulum nulla" DealInfo="Nisi fermentum bibendum feugiat morbi" DealId="Accumsan parturient auctor" EndTime="Fringilla proin" ImageUrl="Augue vestibulum dictumst" Restriction="Gravida habitasse iaculis lacinia" TransactionUrl="Eleifend facilisi vestibulum hendrerit">
+			<Model:DealModel.Business>
+				<Model:BusinessModel BusinessName="Tempor elit tempus parturient hac" BusinessId="Massa porttitor adipiscing est" ProviderBusinessId="Sem lorem">
+					<Model:BusinessModel.Locations>
+						<Model:LocationModel Address1="Leo mus metus natoque" Address2="Posuere enim" City="Nec vestibulum potenti erat" Country="Tortor turpis pulvinar varius" Longitude="956.51" Latitude="908.11" PhoneNumber="Non morbi eros" State="Tincidunt tristique nibh per" Zipcode="Vestibulum sed neque"/>
+						<Model:LocationModel Address1="Sem adipiscing ultricies venenatis" Address2="Nisi parturient pretium" City="Nisl netus" Country="Sit nunc odio vel orci" Longitude="167.86" Latitude="285.29" PhoneNumber="Rhoncus pede" State="Nulla nam sodales porta sagittis" Zipcode="Senectus viverra purus vulputate curabitur"/>
+						<Model:LocationModel Address1="Quam aenean sociosqu phasellus" Address2="Sed quis" City="Dis vestibulum aliquam integer" Country="Mauris urna consequat quisque" Longitude="446.86" Latitude="922.54" PhoneNumber="Vivamus cras duis" State="Aliquam nunc convallis" Zipcode="Amet est ante"/>
+						<Model:LocationModel Address1="Aliquet dignissim" Address2="Vestibulum risus suscipit" City="Torquent velit vitae" Country="Nullam adipiscing class" Longitude="211.04" Latitude="485.85" PhoneNumber="Ultrices hac" State="Blandit commodo leo" Zipcode="Mus arcu diam"/>
+						<Model:LocationModel Address1="Vehicula parturient volutpat" Address2="Eget curae vestibulum elementum" City="Aptent conubia nec non" Country="Per maecenas elit" Longitude="415.59" Latitude="762.97" PhoneNumber="Donec sed" State="Vestibulum enim" Zipcode="Facilisis etiam erat eros fusce"/>
+					</Model:BusinessModel.Locations>
+				</Model:BusinessModel>
+			</Model:DealModel.Business>
+			<Model:DealModel.SeoUrl>
+				<Model:SeoUrlModel FullUrl="Adipiscing nisl parturient vestibulum congue"/>
+			</Model:DealModel.SeoUrl>
+		</Model:DealModel>
+		<Model:DealModel Attribution="Sit nunc himenaeos vel cursus" CurrencyCode="Diam accumsan" CurrencySymbol="Vel eget elit risus" DealTitle="Himenaeos feugiat eleifend" DealInfo="Dictumst vestibulum euismod vitae vestibulum" DealId="Enim bibendum velit parturient mauris" EndTime="Erat mollis class" ImageUrl="Imperdiet gravida facilisi curae faucibus" Restriction="Donec habitant etiam" TransactionUrl="Iaculis lacinia nam">
+			<Model:DealModel.Business>
+				<Model:BusinessModel BusinessName="Imperdiet nam" BusinessId="Adipiscing dolor faucibus" ProviderBusinessId="Egestas hendrerit adipiscing mattis">
+					<Model:BusinessModel.Locations>
+						<Model:LocationModel Address1="Odio fames laoreet" Address2="Natoque felis parturient dictum vestibulum" City="Malesuada ipsum vestibulum" Country="Lectus habitant sed adipiscing" Longitude="766.01" Latitude="318.17" PhoneNumber="Inceptos dis penatibus" State="Est parturient libero" Zipcode="Orci porttitor tincidunt"/>
+						<Model:LocationModel Address1="Pede interdum posuere tristique" Address2="Ultricies justo" City="Lobortis vestibulum nascetur" Country="Pharetra lacus" Longitude="410.55" Latitude="801.58" PhoneNumber="Quam lorem placerat" State="Potenti hac leo pulvinar vestibulum" Zipcode="Pretium adipiscing"/>
+						<Model:LocationModel Address1="Sagittis rhoncus senectus mus venenatis" Address2="Parturient sodales sociosqu vestibulum" City="Suscipit nec viverra torquent" Country="Magna aliquam" Longitude="539.93" Latitude="211.85" PhoneNumber="Massa integer quis ligula" State="Ultrices vestibulum" Zipcode="Vehicula non volutpat"/>
+						<Model:LocationModel Address1="Vulputate metus morbi urna adipiscing" Address2="Curabitur phasellus cras duis parturient" City="Quisque nunc" Country="Vestibulum consequat vestibulum" Longitude="671.32" Latitude="939.42" PhoneNumber="Litora per" State="Neque convallis sed" Zipcode="Netus maecenas vivamus nulla"/>
+						<Model:LocationModel Address1="Sem dignissim aliquam aliquet blandit" Address2="Adipiscing parturient sit commodo" City="Vestibulum amet conubia cubilia porta" Country="Praesent ante elementum" Longitude="292.35" Latitude="228.64" PhoneNumber="Facilisis luctus fermentum fringilla purus" State="Magnis habitasse arcu" Zipcode="Vestibulum dapibus"/>
+					</Model:BusinessModel.Locations>
+				</Model:BusinessModel>
+			</Model:DealModel.Business>
+			<Model:DealModel.SeoUrl>
+				<Model:SeoUrlModel FullUrl="Montes eros"/>
+			</Model:DealModel.SeoUrl>
+		</Model:DealModel>
+		<Model:DealModel Attribution="Adipiscing laoreet" CurrencyCode="Magna elementum aliquam" CurrencySymbol="Sed nunc accumsan aliquet bibendum" DealTitle="Neque facilisi netus auctor" DealInfo="Eleifend blandit aptent commodo dis" DealId="Massa dictumst metus morbi" EndTime="Conubia facilisis est vestibulum" ImageUrl="Hac fermentum faucibus nulla fringilla" Restriction="Habitasse leo vestibulum cubilia" TransactionUrl="Dapibus purus risus cursus adipiscing">
+			<Model:DealModel.Business>
+				<Model:BusinessModel BusinessName="Sed malesuada fusce" BusinessId="Nibh natoque parturient inceptos nisi" ProviderBusinessId="Parturient dignissim">
+					<Model:BusinessModel.Locations>
+						<Model:LocationModel Address1="Posuere potenti lorem vestibulum vestibulum" Address2="Penatibus adipiscing nisl" City="Interdum dis porttitor" Country="Tincidunt nostra ornare" Longitude="985.92" Latitude="150.13" PhoneNumber="Tristique pretium parturient" State="Vestibulum vestibulum rhoncus nunc" Zipcode="Odio platea primis"/>
+						<Model:LocationModel Address1="Rutrum sapien" Address2="Sodales est" City="Ultricies viverra" Country="Orci pede" Longitude="850.07" Latitude="988.53" PhoneNumber="Adipiscing morbi hac venenatis nulla" State="Semper lobortis aliquam sociis" Zipcode="Leo vulputate taciti quam"/>
+						<Model:LocationModel Address1="Mus nec nascetur pharetra" Address2="Proin placerat quis urna" City="Cras non tellus per parturient" Country="Tempor integer duis vestibulum" Longitude="566.6" Latitude="743.31" PhoneNumber="Tempus nunc curabitur pulvinar" State="Vestibulum amet" Zipcode="Tortor sed ante"/>
+						<Model:LocationModel Address1="Quisque augue turpis" Address2="Arcu diam dolor adipiscing eget" City="Varius fames parturient" Country="Felis aenean phasellus vestibulum" Longitude="323.72" Latitude="792.39" PhoneNumber="Sem consequat elit sagittis senectus" State="Mauris vestibulum" Zipcode="Enim ipsum nullam sociosqu suscipit"/>
+						<Model:LocationModel Address1="Torquent vivamus erat" Address2="Adipiscing justo ultrices sit eros" City="Parturient vehicula vel vestibulum nibh" Country="Nisi volutpat" Longitude="652.39" Latitude="204.8" PhoneNumber="Vestibulum nisl lacus maecenas" State="Adipiscing lorem convallis" Zipcode="Praesent nam"/>
+					</Model:BusinessModel.Locations>
+				</Model:BusinessModel>
+			</Model:DealModel.Business>
+			<Model:DealModel.SeoUrl>
+				<Model:SeoUrlModel FullUrl="Congue porta habitant hendrerit"/>
+			</Model:DealModel.SeoUrl>
+		</Model:DealModel>
+		<Model:DealModel Attribution="Mus inceptos himenaeos egestas" CurrencyCode="Habitant aenean" CurrencySymbol="Elit vestibulum nam enim" DealTitle="Nullam aliquam aliquet felis" DealInfo="Fames inceptos" DealId="Mauris erat adipiscing vivamus dolor" EndTime="Convallis sed eros aptent" ImageUrl="Interdum auctor" Restriction="Parturient vestibulum dignissim" TransactionUrl="Blandit adipiscing commodo">
+			<Model:DealModel.Business>
+				<Model:BusinessModel BusinessName="Lectus interdum velit" BusinessId="Nec euismod imperdiet malesuada dictum" ProviderBusinessId="Quisque sit varius vel">
+					<Model:BusinessModel.Locations>
+						<Model:LocationModel Address1="Penatibus non libero odio per" Address2="Parturient porttitor vitae" City="Ligula vestibulum class litora orci" Country="Pede sed vestibulum" Longitude="701.78" Latitude="101.98" PhoneNumber="Quam lobortis luctus adipiscing" State="Sem nascetur" Zipcode="Pharetra curae sit"/>
+						<Model:LocationModel Address1="Magnis placerat quis feugiat" Address2="Vel mattis" City="Gravida donec urna pulvinar" Country="Etiam cras sagittis" Longitude="170.96" Latitude="632.29" PhoneNumber="Mauris fusce mollis" State="Duis montes nunc" Zipcode="Nostra ornare platea parturient"/>
+						<Model:LocationModel Address1="Primis tincidunt" Address2="Iaculis senectus" City="Nam sociosqu lorem amet morbi" Country="Ante sed suscipit" Longitude="922.19" Latitude="877.48" PhoneNumber="Nulla torquent ultrices" State="Rutrum sapien vehicula dis" Zipcode="Vestibulum semper tristique volutpat"/>
+						<Model:LocationModel Address1="Lacinia proin" Address2="Est laoreet ultricies arcu natoque" City="Vestibulum posuere adipiscing maecenas praesent" Country="Accumsan sociis bibendum potenti pretium" Longitude="466.03" Latitude="814.93" PhoneNumber="Parturient rhoncus vestibulum hac" State="Sodales venenatis leo vulputate taciti" Zipcode="Mus dictumst curabitur tellus"/>
+						<Model:LocationModel Address1="Viverra tempor eleifend" Address2="Diam nec tempus vestibulum" City="Eget tortor adipiscing facilisi augue" Country="Aliquam faucibus" Longitude="983.85" Latitude="215.94" PhoneNumber="Integer non per" State="Sed phasellus sem turpis" Zipcode="Parturient vestibulum consequat"/>
+					</Model:BusinessModel.Locations>
+				</Model:BusinessModel>
+			</Model:DealModel.Business>
+			<Model:DealModel.SeoUrl>
+				<Model:SeoUrlModel FullUrl="Vestibulum lobortis"/>
+			</Model:DealModel.SeoUrl>
+		</Model:DealModel>
+		<Model:DealModel Attribution="Dis parturient" CurrencyCode="Hac interdum vestibulum" CurrencySymbol="Amet morbi" DealTitle="Proin nascetur taciti vestibulum" DealInfo="Nulla sociis" DealId="Lobortis semper" EndTime="Adipiscing parturient ante" ImageUrl="Tellus viverra" Restriction="Vestibulum tempor" TransactionUrl="Vestibulum tempus eget leo elit">
+			<Model:DealModel.Business>
+				<Model:BusinessModel BusinessName="Nibh ipsum justo lacus" BusinessId="Vestibulum congue est elementum nascetur" ProviderBusinessId="Adipiscing sodales parturient nunc lorem">
+					<Model:BusinessModel.Locations>
+						<Model:LocationModel Address1="Hac conubia pharetra" Address2="Cursus lorem leo magna" City="Dictum lectus facilisis vestibulum" Country="Massa cubilia" Longitude="249.77" Latitude="641.38" PhoneNumber="Adipiscing mus" State="Nisi nec metus morbi" Zipcode="Placerat pulvinar non parturient neque"/>
+						<Model:LocationModel Address1="Netus sagittis vestibulum" Address2="Dapibus fermentum" City="Egestas senectus sociosqu" Country="Fringilla per" Longitude="511.53" Latitude="908.52" PhoneNumber="Suscipit habitasse nisl" State="Libero ligula hendrerit nulla sed" Zipcode="Litora torquent sem"/>
+						<Model:LocationModel Address1="Ultrices luctus magnis sit" Address2="Euismod vehicula himenaeos vel feugiat" City="Volutpat vestibulum gravida" Country="Mattis nunc" Longitude="491.78" Latitude="273.81" PhoneNumber="Iaculis nam imperdiet maecenas" State="Adipiscing odio porta" Zipcode="Mauris mollis purus orci"/>
+						<Model:LocationModel Address1="Parturient praesent" Address2="Vestibulum montes nostra" City="Lacinia accumsan pede quam" Country="Bibendum risus laoreet" Longitude="880.71" Latitude="220.84" PhoneNumber="Natoque quis vestibulum malesuada dictumst" State="Velit ornare penatibus vitae eleifend" Zipcode="Class porttitor"/>
+						<Model:LocationModel Address1="Facilisi platea primis rutrum" Address2="Posuere tincidunt curae adipiscing urna" City="Tristique faucibus parturient vestibulum" Country="Habitant sed dis" Longitude="433.1" Latitude="340.2" PhoneNumber="Cras sapien donec potenti duis" State="Pretium etiam rhoncus vestibulum fusce" Zipcode="Inceptos est"/>
+					</Model:BusinessModel.Locations>
+				</Model:BusinessModel>
+			</Model:DealModel.Business>
+			<Model:DealModel.SeoUrl>
+				<Model:SeoUrlModel FullUrl="Ultricies aliquam arcu diam"/>
+			</Model:DealModel.SeoUrl>
+		</Model:DealModel>
+		<Model:DealModel Attribution="Adipiscing integer parturient tortor pharetra" CurrencyCode="Vulputate vestibulum est natoque" CurrencySymbol="Cras duis hac dictumst" DealTitle="Potenti mus nunc curabitur phasellus" DealInfo="Leo vestibulum facilisi montes adipiscing" DealId="Posuere eleifend" EndTime="Nostra parturient faucibus" ImageUrl="Vestibulum vestibulum consequat" Restriction="Nec amet" TransactionUrl="Non dignissim purus">
+			<Model:DealModel.Business>
+				<Model:BusinessModel BusinessName="Vulputate vestibulum curabitur adipiscing" BusinessId="Venenatis vestibulum enim" ProviderBusinessId="Dis nulla">
+					<Model:BusinessModel.Locations>
+						<Model:LocationModel Address1="Erat phasellus eros placerat" Address2="Mus nec turpis pulvinar" City="Parturient quisque" Country="Vestibulum vestibulum consequat vivamus" Longitude="186.87" Latitude="401.6" PhoneNumber="Varius aliquam convallis augue" State="Dignissim aenean" Zipcode="Dolor nibh"/>
+						<Model:LocationModel Address1="Mauris elementum sagittis" Address2="Non fames per sed sem" City="Senectus aliquet nisi nullam sociosqu" Country="Facilisis adipiscing blandit" Longitude="564.64" Latitude="982.03" PhoneNumber="Fermentum aptent fringilla auctor" State="Nisl congue commodo parturient" Zipcode="Suscipit sit cursus dictum"/>
+						<Model:LocationModel Address1="Lectus conubia" Address2="Nunc felis torquent vestibulum ipsum" City="Libero vestibulum vel ultrices justo" Country="Vehicula adipiscing parturient" Longitude="922.18" Latitude="480.8" PhoneNumber="Ligula habitasse lacus vestibulum cubilia" State="Dapibus odio litora" Zipcode="Lorem egestas hendrerit vestibulum"/>
+						<Model:LocationModel Address1="Adipiscing orci volutpat" Address2="Luctus magna maecenas" City="Euismod feugiat" Country="Nam magnis himenaeos imperdiet" Longitude="435.21" Latitude="967.98" PhoneNumber="Praesent mattis mauris gravida" State="Malesuada accumsan" Zipcode="Iaculis penatibus"/>
+						<Model:LocationModel Address1="Massa lacinia" Address2="Pede quam" City="Metus sed porttitor tincidunt" Country="Quis urna" Longitude="455.94" Latitude="424.55" PhoneNumber="Tristique ultricies venenatis parturient" State="Morbi neque netus laoreet" Zipcode="Mollis bibendum"/>
+					</Model:BusinessModel.Locations>
+				</Model:BusinessModel>
+			</Model:DealModel.Business>
+			<Model:DealModel.SeoUrl>
+				<Model:SeoUrlModel FullUrl="Porta ante arcu adipiscing convallis"/>
+			</Model:DealModel.SeoUrl>
+		</Model:DealModel>
+		<Model:DealModel Attribution="Per elementum parturient habitant inceptos" CurrencyCode="Nunc amet" CurrencySymbol="Iaculis lacinia" DealTitle="Mauris vestibulum nullam sed aptent" DealInfo="Aenean natoque posuere arcu lorem" DealId="Ante laoreet turpis varius" EndTime="Magna adipiscing potenti pretium diam" ImageUrl="Auctor massa metus curabitur rhoncus" Restriction="Morbi congue sodales parturient phasellus" TransactionUrl="Viverra elit vestibulum cursus convallis">
+			<Model:DealModel.Business>
+				<Model:BusinessModel BusinessName="Fermentum risus vestibulum velit interdum" BusinessId="Pretium rhoncus diam facilisis" ProviderBusinessId="Duis lacus per">
+					<Model:BusinessModel.Locations>
+						<Model:LocationModel Address1="Sodales vitae fringilla" Address2="Class vestibulum adipiscing curae" City="Sed viverra ornare" Country="Sem parturient" Longitude="262.13" Latitude="654.47" PhoneNumber="Donec etiam platea eget elit" State="Aliquam lobortis nascetur primis fusce" Zipcode="Lorem enim"/>
+						<Model:LocationModel Address1="Sit habitasse morbi" Address2="Rutrum erat vel sapien nam" City="Vestibulum integer pharetra vestibulum sed" Country="Semper eros" Longitude="210.57" Latitude="106.24" PhoneNumber="Hendrerit adipiscing dis nibh sociis" State="Quisque himenaeos nulla nisi imperdiet" Zipcode="Placerat pulvinar sagittis"/>
+						<Model:LocationModel Address1="Proin vivamus augue nisl" Address2="Est aliquam nunc" City="Hac senectus" Country="Malesuada parturient" Longitude="616.38" Latitude="413.6" PhoneNumber="Taciti vestibulum" State="Vestibulum adipiscing penatibus sociosqu" Zipcode="Tellus leo suscipit tempor porttitor"/>
+						<Model:LocationModel Address1="Torquent dolor" Address2="Mus tincidunt" City="Aliquet odio blandit" Country="Nec ultrices" Longitude="730.61" Latitude="233.72" PhoneNumber="Commodo tempus tristique" State="Ultricies fames orci" Zipcode="Conubia parturient cubilia felis non"/>
+						<Model:LocationModel Address1="Pede quam" Address2="Quis venenatis tortor" City="Vehicula vulputate" Country="Dapibus egestas ipsum volutpat vestibulum" Longitude="289.65" Latitude="533.06" PhoneNumber="Justo euismod vestibulum adipiscing" State="Urna cras" Zipcode="Parturient vestibulum feugiat gravida"/>
+					</Model:BusinessModel.Locations>
+				</Model:BusinessModel>
+			</Model:DealModel.Business>
+			<Model:DealModel.SeoUrl>
+				<Model:SeoUrlModel FullUrl="Consequat eget"/>
+			</Model:DealModel.SeoUrl>
+		</Model:DealModel>
+	</ViewModel:DailyDealsViewModel.DealsList>
+</ViewModel:DailyDealsViewModel>
