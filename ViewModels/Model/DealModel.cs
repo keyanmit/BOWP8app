@@ -9,6 +9,8 @@ namespace ViewModels.Model
 {
     public class DealModel
     {
+        private string _imageUrl;        
+
         [JsonProperty("attribution")]
         public string Attribution { get; set; }
         [JsonProperty("business")]
@@ -28,7 +30,17 @@ namespace ViewModels.Model
         [JsonProperty("transaction_url")]
         public string TransactionUrl { get; set; }
         [JsonProperty("image_url")]
-        public string ImageUrl { get; set; }
+        public string ImageUrl
+        {
+            get
+            {
+                return _imageUrl;
+            }
+            set
+            {
+                _imageUrl = value + "&size=4";
+            }
+        }
         [JsonProperty("restriction")]
         public string Restriction { get; set; }
         [JsonProperty("seo_url")]

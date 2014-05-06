@@ -8,7 +8,7 @@
 
     <!--Application Resources-->
     <Application.Resources>
-    	<local:LocalizedStrings xmlns:local="clr-namespace:BOWP8app" x:Key="LocalizedStrings"/>
+    	<!--local:LocalizedStrings xmlns:local="clr-namespace:BOWP8app" x:Key="LocalizedStrings"/-->
     </Application.Resources>
 
     <Application.ApplicationLifetimeObjects>

@@ -3,14 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BOWP8app", "BOWP8app\BOWP8app.csproj", "{AA8CDE08-8A55-4811-A6D9-9A7D1337A1B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModels", "ViewModels\ViewModels.csproj", "{E83CE6DD-9A7D-4419-BAA8-46626D89CC30}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{048F43C7-C6CF-495E-8410-63B0133DC336}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{280A5597-6D3B-4930-99F7-6C4DE678E5DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModels", "ViewModels\ViewModels.csproj", "{2BBCC50F-F26D-425A-ABAC-CD2523E3337D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BOAppComponentTest", "BOAppComponentTest\BOAppComponentTest.csproj", "{F3F29BC5-B905-4EFD-AC91-D8057C2BCA9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testMock", "testMock\testMock.csproj", "{097544C3-8608-46CA-BF10-378D59345AE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,10 +30,22 @@ Global
 		{AA8CDE08-8A55-4811-A6D9-9A7D1337A1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA8CDE08-8A55-4811-A6D9-9A7D1337A1B4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AA8CDE08-8A55-4811-A6D9-9A7D1337A1B4}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{E83CE6DD-9A7D-4419-BAA8-46626D89CC30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E83CE6DD-9A7D-4419-BAA8-46626D89CC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E83CE6DD-9A7D-4419-BAA8-46626D89CC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E83CE6DD-9A7D-4419-BAA8-46626D89CC30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{280A5597-6D3B-4930-99F7-6C4DE678E5DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280A5597-6D3B-4930-99F7-6C4DE678E5DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280A5597-6D3B-4930-99F7-6C4DE678E5DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280A5597-6D3B-4930-99F7-6C4DE678E5DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BBCC50F-F26D-425A-ABAC-CD2523E3337D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BBCC50F-F26D-425A-ABAC-CD2523E3337D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BBCC50F-F26D-425A-ABAC-CD2523E3337D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BBCC50F-F26D-425A-ABAC-CD2523E3337D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3F29BC5-B905-4EFD-AC91-D8057C2BCA9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F29BC5-B905-4EFD-AC91-D8057C2BCA9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F29BC5-B905-4EFD-AC91-D8057C2BCA9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F29BC5-B905-4EFD-AC91-D8057C2BCA9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{097544C3-8608-46CA-BF10-378D59345AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097544C3-8608-46CA-BF10-378D59345AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097544C3-8608-46CA-BF10-378D59345AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097544C3-8608-46CA-BF10-378D59345AE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

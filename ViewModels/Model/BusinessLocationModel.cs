@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 
 namespace ViewModels.Model
-{    
-    public class LocationModel
+{
+    public class BusinessLocationModel
     {
         [JsonProperty("address1")]
         public string Address1 { get; set; }
@@ -27,5 +27,19 @@ namespace ViewModels.Model
         public string State { get; set; }
         [JsonProperty("zip")]
         public string Zipcode { get; set; }
+
+
+        public string Locality
+        {
+            get
+            {
+                if (Address1 != null && Address1.EndsWith(","))
+                    Address1 = Address1.Remove(Address1.Length - 1);
+                return Address1!=null ? (Address1.Substring(Address1.LastIndexOf(',') + 1)).Trim() : string.Empty;
+            }
+            set
+            {
+            }
+        }
     }
 }

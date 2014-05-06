@@ -19,6 +19,21 @@
 				<TextBlock Text="{Binding TransactionUrl}"/>
 			</StackPanel>
 		</DataTemplate>
+		<DataTemplate x:Key="DealModelTemplate1">
+			<StackPanel>
+				<TextBlock Text="{Binding Attribution}"/>
+				<TextBlock Text="{Binding CurrencyCode}"/>
+				<TextBlock Text="{Binding CurrencySymbol}"/>
+				<TextBlock Text="{Binding DealId}"/>
+				<TextBlock Text="{Binding DealInfo}"/>
+				<TextBlock Text="{Binding DealTitle}"/>
+				<TextBlock Text="{Binding DealType}"/>
+				<TextBlock Text="{Binding EndTime}"/>
+				<TextBlock Text="{Binding ImageUrl}"/>
+				<TextBlock Text="{Binding Restriction}"/>
+				<TextBlock Text="{Binding TransactionUrl}"/>
+			</StackPanel>
+		</DataTemplate>
 	</phone:PhoneApplicationPage.Resources>
 	<phone:PhoneApplicationPage.FontFamily>
 		<StaticResource ResourceKey="PhoneFontFamilyNormal"/>
@@ -79,7 +94,7 @@
 								<TextBlock Text="{Binding DealInfo}" TextWrapping="Wrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextSubtleStyle}" FontSize="18" LineHeight="25" Height="105"/>
 								<StackPanel Orientation="Horizontal" Margin="12,0,0,0">
 									<Image Source="Assets/Icons/pushpin.png" Margin="0,0,10,10"/>
-									<TextBlock TextWrapping="Wrap" Text="{Binding Business.Locations[0].City}" Width="160" LineHeight="35" Height="35"/>
+                                    <TextBlock TextWrapping="Wrap" Text="{Binding Business.Location.Locality}" Width="160" LineHeight="35" Height="35"/>
 									
 								</StackPanel>
 							</StackPanel>

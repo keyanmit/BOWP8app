@@ -40,13 +40,14 @@ local.properties
 *.suo
 *.user
 *.sln.docstates
-
+*.-copy
 # Build results
 
 [Dd]ebug/
 [Rr]elease/
 x64/
 build/
+packages/
 [Bb]in/
 [Oo]bj/
 

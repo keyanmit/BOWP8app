@@ -5,10 +5,16 @@ using System.Net;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Navigation;
+using System.Windows.Media.Imaging;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using BOWP8app.Resources;
 using BOWP8app.ViewModels;
+using Facade.DAL;
+using ViewModels.ViewModel;
+using ViewModels.Model;
+using System.Threading.Tasks;
+using Windows.Graphics;
 
 namespace BOWP8app
 {
@@ -19,9 +25,21 @@ namespace BOWP8app
         {
             InitializeComponent();
 
+            Task.Run(async () =>
+            {
+                LoadDeals(new DeviceLocationModel()
+                {
+                    Latitude = 12.930137,
+                    Longitude = 77.587733,
+                });
+            });
             // Set the data context of the LongListSelector control to the sample data
-            DataContext = App.ViewModel;
-
+            //DataContext = App.ViewModel;
+            //LoadDeals(new DeviceLocationModel()
+            //{
+            //    Latitude = 12.930137,
+            //    Longitude = 77.587733,
+            //});
             // Sample code to localize the ApplicationBar
             //BuildLocalizedApplicationBar();
         }
@@ -49,6 +67,33 @@ namespace BOWP8app
             MainLongListSelector.SelectedItem = null;
         }
 
+        private async void LoadDeals(DeviceLocationModel location)
+        {
+            List<DealModel> dealList;
+            DailyDealsViewModel vm = new DailyDealsViewModel();
+
+            dealList = await DealServer.GetNearByDeals(new DealServerQueryModel()
+            {
+                Latitude = location.Latitude,
+                Longitude = location.Longitude,
+                Count = 5,
+                Refinement = new QueryRefineModel()
+            });
+            dealList.ForEach(d => vm.DealsList.Add(d));
+
+            this.Dispatcher.BeginInvoke(() =>
+            {
+                DataContext = vm;
+            });
+
+        }
+
+        private void Image_Loaded(object sender, RoutedEventArgs e)
+        {
+            var img=(Image)sender;
+            var context = (img).DataContext as DealModel;
+            img.Source = new BitmapImage(new Uri(context.ImageUrl,UriKind.RelativeOrAbsolute));            
+        }
         // Sample code for building a localized ApplicationBar
         //private void BuildLocalizedApplicationBar()
         //{

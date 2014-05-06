@@ -12,7 +12,7 @@ namespace ViewModels.Model
         [JsonProperty("business_id")]
         public string BusinessId { get; set; }
         [JsonProperty("locations")]
-        public List<LocationModel> Locations { get; set; }
+        public List<BusinessLocationModel> Locations { get; set; }
         [JsonProperty("name")]
         public string BusinessName { get; set; }
         [JsonProperty("provider_business_id")]
@@ -20,7 +20,7 @@ namespace ViewModels.Model
 
         //view model context
 
-        public LocationModel Location
+        public BusinessLocationModel Location
         {
             get
             {
